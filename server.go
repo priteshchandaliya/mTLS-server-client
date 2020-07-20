@@ -11,8 +11,8 @@ import (
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-	// Write "Hello, world!" to the response body
-	io.WriteString(w, "Hello, world!\n")
+	// Write "Hello, Pritesh!" to the response body
+	io.WriteString(w, "Hello, Pritesh!\n")
 }
 
 func main() {
