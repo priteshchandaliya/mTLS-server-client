@@ -11,7 +11,7 @@ https://www.callicoder.com/docker-golang-image-container-example/
 3. To run the client, build the go binary and execute it or use
 `go run client.go` command
 
-4. The certs I generated are for my server domain, replace the cert geberation
+4. The certs I generated are for my server domain, replace the cert generation
 command with the server's IP/FQDN and replace here:
 ```
 openssl req -newkey rsa:2048 \
